@@ -5,9 +5,9 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * Unit test for simple AppStormTopoloy.
+ * Unit test for simple AppStormTopology.
  */
-public class AppStormTopoloyTest
+public class AppStormTopologyTest
     extends TestCase
 {
     /**
@@ -15,7 +15,7 @@ public class AppStormTopoloyTest
      *
      * @param testName name of the test case
      */
-    public AppStormTopoloyTest(String testName )
+    public AppStormTopologyTest(String testName )
     {
         super( testName );
     }
@@ -25,7 +25,7 @@ public class AppStormTopoloyTest
      */
     public static Test suite()
     {
-        return new TestSuite( AppStormTopoloyTest.class );
+        return new TestSuite( AppStormTopologyTest.class );
     }
 
     /**
